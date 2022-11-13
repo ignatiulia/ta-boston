@@ -11,7 +11,7 @@ export default function Home() {
       </header>
 
       <main className="content">
-        <div className="content-main ">
+        <div className="content-main">
           <HomeSocial></HomeSocial>
           <HomePayment></HomePayment>
         </div>

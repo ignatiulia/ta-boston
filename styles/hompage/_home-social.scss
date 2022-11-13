@@ -12,20 +12,22 @@
     }
 
     li {
-      border: 3px solid $gray-primary;
-      border-radius: 50%;
-      width: 50px;
-      height: 50px;
-      font-size: 24px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      transition: color 0.3s linear, background-color 0.3s linear;
+      a {
+        border: 2px solid $gray-primary;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: color 0.3s linear, background-color 0.3s linear;
 
-      @include media-breakpoint-up(lg) {
-        &:hover {
-          color: $white;
-          background-color: $gray-primary;
+        @include media-breakpoint-up(lg) {
+          &:hover {
+            color: $white;
+            background-color: $gray-primary;
+          }
         }
       }
     }
