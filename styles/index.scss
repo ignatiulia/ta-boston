@@ -11,7 +11,19 @@
 @import './../node_modules/bootstrap/scss/bootstrap-grid.scss';
 @import './../node_modules/bootstrap/scss/bootstrap-utilities.scss';
 
+// variables
+@import './variables';
+
+// reset
+@import './reset';
+
+// common
+@import './common/index';
+
 body {
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
+  color: $gray-primary;
 }
+
+@import './hompage/index';
