@@ -1,0 +1,60 @@
+.product-tile {
+  text-align: center;
+  font-weight: 300;
+
+  &-image {
+    position: relative;
+
+    img {
+      width: 100%;
+
+      &:hover {
+        opacity: 90%;
+      }
+    }
+
+    .badge {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+    }
+  }
+
+  .product-tile-title {
+    font-weight: 300;
+    font-size: 24px;
+    padding-top: 30px;
+
+    span:first-child {
+      font-weight: 500;
+    }
+
+    span:nth-child(2) {
+      font-weight: 400;
+    }
+  }
+
+  .product-tile-subtitle {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .product-tile-pricing {
+    padding: 16px 0;
+
+    .product-price-regular {
+      text-decoration: line-through;
+      display: block;
+    }
+
+    .product-price {
+      font-size: 24px;
+
+      span {
+        color: $brand-primary;
+        font-weight: 500;
+      }
+    }
+  }
+}
